@@ -1,0 +1,258 @@
+@import url(reset.css);
+main{
+    margin-top: 30px !important;
+}
+.categ_name{
+    font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 42px;
+color: #1D1F22;
+}
+.Merch{
+    float: left;
+    margin-right: 30px;
+}
+.merch_img{
+    width: 354px;
+    height: 330px;
+    margin-top: 119px;
+    margin-bottom: 24px;
+}
+.Merch p:last-child{
+    font-family: Raleway;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+color: #1D1F22;
+float: left;
+}
+.Merch a{
+    font-family: Raleway;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+color: #1D1F22;
+}
+.inactive{
+   opacity: 0.6;
+}
+.Stock{
+    position: relative;
+    top: 50%;
+    left: 26%;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    z-index: 1;
+    display: inline-block;
+}
+.inactive span img{
+    top: -26px;
+}
+.Buy{
+    width: 52px;
+height: 52px;
+position: relative;
+right: -81%;
+top: 304px;
+background-color: #5ECE7B;;
+border-radius: 50%;
+z-index: 1;
+display:  none;
+}
+.merch_img img{
+    top: -50px;
+}
+.Merch:hover  .Buy{
+display: block;
+}
+.test{
+    position: absolute;
+    top: 0%;
+    right: 20%;
+}
+.Good_lidl{
+    width: 105px;
+    height: 137px;
+}
+.shopping_bag{
+    display: none;
+    background-color: #FFFFFF;
+    float: right;
+    z-index: 2;
+    position: absolute;
+    right: 0px;
+    padding: 0 16px;
+    top: 0px;
+}
+h1{
+float: left;
+}
+.disabled{
+    position: absolute;
+    display: none;
+    top: 0px;
+    left: -79px;
+    background: rgba(57, 55, 72, 0.22);
+    z-index: 1;
+    cursor: pointer;
+    height: 100%;
+    width: 111.13%;
+}
+.enebled{
+    display: block !important;
+}
+.bag{
+    font-family: Raleway;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 160%;
+/* identical to box height, or 26px */
+
+text-align: right;
+
+color: #1D1F22;
+}
+.itemCount{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    /* identical to box height, or 26px */
+    
+  
+    color: #1D1F22;
+}
+.itemPrice{
+    font-family: Raleway;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 160%;
+text-align: left;
+color: #1D1F22;
+text-align: left;
+margin-bottom: 30px;
+}
+.itemName{
+    margin-bottom: 5px;
+    font-family: Raleway;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 160%;
+
+color: #1D1F22;
+
+    width: 110px;
+}
+.size{
+    width: 24px;
+height: 24px;
+background: rgba(166, 166, 166, 0.2);
+border: 1px solid #A6A6A6;
+font-family: Source Sans Pro;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 160%;
+text-align: center;
+color: #A6A6A6;
+cursor: pointer;
+}
+.shopping_bag .active{
+    text-align: center;
+    width: 24px;
+height: 24px;
+border: 1px solid #1D1F22;
+box-sizing: border-box;
+font-family: Source Sans Pro;
+background-color: #FFFFFF;
+font-style: normal;
+
+
+font-weight: normal;
+font-size: 14px;
+line-height: 160%;
+
+color: #1D1F22;
+}
+.size:not(:last-child){
+    margin-right: 8px;
+}
+.increaser_box{
+    margin-left: 18px;
+    margin-right: 10px;
+}
+.increaser_box p{
+    text-align: center;
+    margin-top: 34px;
+}
+.increaser_box button:last-child{
+    margin-top: 34px;
+}
+.shopping_bag span:first-child{
+    margin-bottom: 25px;
+}
+.Total{
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+
+
+
+
+color: #1D1F22;
+}
+.total_price{
+    font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 160%;
+
+color: #1D1F22;
+}
+.viewer{
+    margin-top:37px;
+    margin-bottom: 20px;
+}
+.viewer a:first-child{
+text-align: center;
+padding-top: 8px;
+width: 140px;
+height: 43px;
+left: 0px;
+top: 0px;
+color: #1D1F22;
+background: #FFFFFF;
+border: 1px solid #1D1F22;
+box-sizing: border-box;
+
+}
+.viewer a:last-child{
+text-align: center;
+padding-top: 8px;
+width: 140px;
+height: 43px;
+background: #5ECE7B;
+font-family: Raleway;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 120%;
+margin-left: 12px;
+
+color: #FFFFFF;
+}
+.block{
+    display: block !important;
+}
+.none{
+    display: none !important;
+}

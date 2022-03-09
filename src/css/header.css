@@ -1,0 +1,72 @@
+@import url(reset.css);
+.center{
+ width: 90%;
+ margin-top: 10px;    
+}
+header div:first-child p:not(:last-child){
+ margin-right:15px ;
+}
+.categories{
+    float: left;
+    font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 120%;
+/* identical to box height, or 19px */
+
+
+
+
+/* --c-text */
+
+color: #1D1F22;
+width: fit-content;
+margin: 0 5px;
+padding-bottom: 30px;
+
+}
+.categ_cont{
+    cursor: pointer;
+   align-self: center;
+   margin-top: 26px;
+}
+.categ_cont .active{
+    color: #5ECE7B;
+    border: 0px ;
+}
+ul .active{
+    font-family: Raleway;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 120%;
+border-bottom: 1px solid #5ECE7B;
+}
+.icon{
+    width: 32.28px;
+    height: 28.62px;
+    margin: 0 auto;
+}
+header section span:nth-child(2) svg:first-child{
+    margin-right: 5px;
+}
+section span:nth-child(3){
+    margin-right: 12px;
+}
+.box_items{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;   
+    background: #1D1F22;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 3px;
+    left: -7px;
+    top: -7px;
+}

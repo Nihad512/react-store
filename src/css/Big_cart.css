@@ -1,0 +1,26 @@
+@import url(reset.css);
+.BG_cart{
+    margin-bottom: 80px;
+}
+.BG_name{
+    margin-bottom: 12px;
+}
+.BG_sizes{
+    margin-bottom: 41px;
+}
+.BG_sb .active{
+   
+        text-align: center;
+        width: 24px;
+        height: 24px;
+        border: 1px solid #1D1F22;
+        box-sizing: border-box;
+        font-family: Source Sans Pro;
+        background-color: #FFFFFF;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 160%;
+        color: #1D1F22;
+    
+}
